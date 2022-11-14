@@ -10,3 +10,12 @@ Card(rank='7', suit='diamonds')
 ```python
 _cards = [Card(rank, suit) for suit in self.suits for rank in self.ranks]
 ```
+## can i use random on obj of class?
+``` python
+>>> deck = FrenchDeck()
+>>> >>> from random import choice
+>>> choice(deck)
+Card(rank='3', suit='hearts')
+```
+``` python
+```
