@@ -17,7 +17,11 @@ _cards = [Card(rank, suit) for suit in self.suits for rank in self.ranks]
 >>> choice(deck)
 Card(rank='3', suit='hearts')
 ```
-#### C include a struct2 called PyVarObject, which has an ob_size field holding
-the number of items in the collection.
+#### C include a struct2 called PyVarObject, which has an ob_size field holding the number of items in the collection.
+
+
+#### '!s' which calls str() on the value, '!r' which calls repr() and '!a' which calls ascii().
+
+
 ``` python
 ```
