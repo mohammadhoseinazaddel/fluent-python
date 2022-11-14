@@ -8,6 +8,5 @@ Card(rank='7', suit='diamonds')
 ```
 ## list comprehension with 2 seprated for loop
 ```python
- [Card(rank, suit) for suit in self.suits
-for rank in self.ranks]
+_cards = [Card(rank, suit) for suit in self.suits for rank in self.ranks]
 ```
